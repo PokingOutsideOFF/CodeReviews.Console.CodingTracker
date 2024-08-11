@@ -1,7 +1,5 @@
-﻿using System.ComponentModel.Design;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data.SQLite;
-using System.Globalization;
 using CodingGoalLibrary;
 using CodingSessionLibrary;
 using Dapper;

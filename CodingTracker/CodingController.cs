@@ -8,7 +8,6 @@ namespace CodingTracker
     {
         public void Menu()
         {
-            var input = new UserInput();
             while (true)
             {
                 Console.Clear();
@@ -36,7 +35,7 @@ namespace CodingTracker
             sessionDB.CreateTable();
             goalDB.CreateTable();
             var userInput = new UserInput();
-            int opt = 0;
+            int opt;
             switch (choice)
             {
                 case 1:

@@ -1,7 +1,6 @@
 ﻿using System.Configuration;
 using System.Data.SQLite;
 using CodingSessionLibrary;
-using CodingGoalLibrary;
 using Spectre.Console;
 using Dapper;
 
